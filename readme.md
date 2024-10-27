@@ -1,10 +1,10 @@
 # This is a Scaffolding of basic MERN projects
 
-## ** Warning ** - It only Works for Ubuntu
+## **Warning** - It only Works for Ubuntu
 
 ## This Repo has TailwindCSS initiated in it
 
-To use it -
+### To use it -
 
 - Clone this Repo.
 - Delete the .git file in the root directory of your Project using `rm -rf .git`.
