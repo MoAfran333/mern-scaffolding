@@ -1,0 +1,19 @@
+{
+  "name": "mern-scaffolding",
+  "version": "1.0.0",
+  "scripts": {
+    "install-all": "npm install --prefix client && npm install --prefix server",
+    "dev-client": "npm run dev --prefix client",
+    "dev-server": "npm run dev --prefix server",
+    "dev": "concurrently \"npm run dev-client\" \" npm run dev-server\"",
+    "check-updates": "echo 'checking the root directory dependencies...' && npm outdated && echo 'root check passed!' || echo 'root check failed...' && cd client && echo 'checking the client directory dependencies...' && npm outdated && echo 'client check passed!' || echo 'client check failed...' && cd ../server && echo 'checking the server directory dependencies...' && npm outdated && echo 'server check passed!' || echo 'server check failed...'",
+    "update-all": "echo 'updating the root dependencies...' && npm update && echo 'root dependency updates successfull!' || echo 'root dependency updates failed...' && cd client && echo 'checking the client dependencies...' && npm update && echo 'client dependency updates successfull!' || echo 'client dependency updates failed...' && cd ../server && echo 'checking the server directory dependencies...' && npm update && echo 'server dependency updates successfull!' || echo 'server dependency updates failed...'"
+  },
+  "keywords": [],
+  "author": "MoAfran333",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
