@@ -14,3 +14,12 @@
 - Do the Needed Modifications to your Project.
 - Add and Commit to your Repo.
 - push to your Repo.
+
+### Additional Points -
+
+- This Repo has TailwindCSS initiated.
+- It uses vite-react for its frontend and the PORT is set to 3000.
+- It uses proxy for /api requests and redirects them to localhost:5000.
+- The server is set to run on PORT 5000.
+- You can use Concurrently from the root directory to start both the server and the client simultaneously using `npm run dev`.
+- You can also start the client and server individually using `npm run dev-client` and `npm run dev-server`.

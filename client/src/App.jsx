@@ -13,7 +13,8 @@ function App() {
         <p className="text-lg">
           Check the{" "}
           <a
-            href="https://github/MoAfran333/mern-scaffolding"
+            href="https://github.com/MoAfran333/mern-scaffolding"
+            target="_blank"
             className="hover:underline text-blue-600"
           >
             readme.md
