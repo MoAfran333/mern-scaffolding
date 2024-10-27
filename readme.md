@@ -24,7 +24,7 @@
 - You can use Concurrently from the root directory to start both the server and the client simultaneously using `npm run dev`.
 - You can also start the client and server individually using `npm run dev-client` and `npm run dev-server.
 
-## Note - if you get `unknown at rule @tailwind` Error
+### Note - if you get `unknown at rule @tailwind` Error
 
 - Try to install Tailwind CSS intellisense extension for VS Code
 - Configure the files.associations - Add "\*.css" : tailwindcss.
